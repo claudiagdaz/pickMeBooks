@@ -1,8 +1,11 @@
+import BookForm from "./components/BookForm";
+import BookList from "./components/BookList";
+
 function App() {
     return (
         <div>
-            App
-        
+            <BookForm />
+            <BookList />
         </div>
     )
 }
